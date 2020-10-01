@@ -10,4 +10,8 @@ class Circle {
   get circumference(){
     return (2 * pi * radius)
   }
+
+  get area(){
+    return (pi * r ** 2)
+  }
 }
