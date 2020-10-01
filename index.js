@@ -8,6 +8,6 @@ class Circle {
     return radius * 2
   }
   get circumference(){
-    return (pi * radius)
+    return (2 * pi * radius)
   }
 }
