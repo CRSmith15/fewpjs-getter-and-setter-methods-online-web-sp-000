@@ -5,13 +5,13 @@ class Circle {
   }
   let pi = Math.PI;
   get diameter(){
-    return radius * 2
+    return this.radius * 2
   }
   get circumference(){
-    return (2 * pi * radius)
+    return (2 * pi * this.radius)
   }
 
   get area(){
-    return (pi * r ** 2)
+    return (pi * this.radius ** 2)
   }
 }
