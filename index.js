@@ -7,4 +7,7 @@ class Circle {
   get diameter(){
     return radius * 2
   }
+  get circumference(){
+    return (pi * radius)
+  }
 }
