@@ -5,17 +5,17 @@ class Circle {
   }
   let pi = Math.PI;
   get diameter(){
-    return this.radius * 2
+    return this.radius * 2;
   }
   get circumference(){
-    return (2 * pi * this.radius)
+    return (2 * pi * this.radius);
   }
 
   get area(){
-    return (pi * this.radius ** 2)
+    return (pi * this.radius ** 2);
   }
 
   set diameter(x){
-    return this.radius = x / 2
+    return this.radius = x / 2;
   }
 }
